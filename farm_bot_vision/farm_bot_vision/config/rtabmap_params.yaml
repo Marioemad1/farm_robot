@@ -1,0 +1,25 @@
+rtabmap:
+  ros__parameters:
+    frame_id: "base_link"          # The robot's base frame
+    map_frame_id: "map"            # The global map frame
+    odom_frame_id: "odom"          # The odometry frame
+    subscribe_depth: false         # Disable depth subscription (we're using RGB only)
+    subscribe_rgb: true            # Enable RGB subscription
+    rgb_topic: "/nav_camera/image_raw"  # Topic for the navigation camera
+    rgb_frame_id: "navigation_camera_link"
+    approx_sync: true              # Approximate synchronization for RGB data
+    use_action_for_goal: true      # Allow navigation goals to be sent to the robot
+    publish_tf: true               # Publish TF transforms
+    tf_delay: 0.05                 # Delay for TF publishing
+    wait_for_transform: true       # Wait for TF transforms to be available
+    grid_map: true                 # Enable grid map generation
+    grid_size: 0.05                # Grid cell size in meters
+    max_mapping_nodes: 1000        # Maximum number of nodes in the map
+    optimize_from_graph: true      # Optimize the map from the graph
+    max_depth: 4.0                 # Maximum depth for RGB data (if applicable)
+    visualize_graph: true          # Visualize the graph in RViz
+    gps_topic: "/gps"              # GPS topic (if applicable)
+    max_features: 500              # Maximum number of features to extract per image
+    loop_closure_hypothesis: 0.8   # Loop closure hypothesis threshold
+    localization: false            # Enable localization mode (set to true if only localization is needed)
+    rgb_frame_id: "navigation_camera_link"

@@ -1,0 +1,13 @@
+transforms:
+  - header:
+      frame_id: "base_link"
+    child_frame_id: "navigation_camera_link"
+    transform:
+      translation: {x: 0.0, y: 0.0, z: 0.235}  # 23.5cm above base_link (front face, centered)
+      rotation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
+  - header:
+      frame_id: "base_link"
+    child_frame_id: "crop_camera_link"
+    transform:
+      translation: {x: 0.0, y: -0.395, z: -0.085}  # 39.5cm behind, 8.5cm below base_link
+      rotation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}
