@@ -1,3 +1,8 @@
+## Note
+
+⚠️ **Disclaimer:**  
+The mechanical and electrical components of this project were developed by their respective teams. However, the source files (e.g., CAD models, circuit schematics) for those components have not been provided by their team manager.
+
 # this is a AI assistant you can ask about our project 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Marioemad1/farm_robot)
 
