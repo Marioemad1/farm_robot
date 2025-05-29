@@ -1,3 +1,4 @@
+# this is a AI assistant you can ask about our project 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Marioemad1/farm_robot)
 
 # Autonomous Agricultural Robotics System (ROS2 Framework)
